@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>MakingWill</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="23.JPG" type="image/gif" sizes="16x16">
+<style>
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  background-image:url(on.jpg);
+  background-size: 1400px 1000px ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+    margin: auto;
+    width: 50%;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+</head>
+<body>
+
+
+
+<h1>Get Started on making your will!!</h1>
+<a href="index.html"><input type="submit" value="Home"></a>
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">What is your Full legal name?</label>
+    <input type="text" id="fname" name="firstname" placeholder="Rafael bernardo">
+
+    <label for="lname">Email address?</label>
+    <input type="text" id="lname" name="lastname" placeholder="Mr.rafael@gmail.com">
+
+    <label for="country">What is your gender?</label>
+    <select id="country" name="country">
+      <option value="australia">Male</option>
+      <option value="canada">Female</option>
+      <option value="usa">Other</option>
+    </select>
+
+    <label for="lname">How are you insured?</label>
+    <input type="text" id="lname" name="lastname" placeholder="AIA Life Insurance">
+
+    <label for="lname">Have any investments?</label>
+    <input type="text" id="lname" name="lastname" placeholder="Add only retirement and investment accounts.">
+
+    <label for="lname">Where do you live in the Philipines?</label>
+    <input type="text" id="lname" name="lastname" placeholder="Street adress">
+    <input type="text" id="lname" name="lastname" placeholder="City">
+    <input type="text" id="lname" name="lastname" placeholder="Zip Code">
+
+    <label for="country">Is this your first will?</label>
+    <select id="country" name="country">
+      <option value="australia">Yes</option>
+      <option value="canada">No</option> 
+    </select>
+
+    <label for="country">What is your status?</label>
+    <select id="country" name="country">
+      <option value="australia">Single</option>
+      <option value="canada">Marries</option> 
+      <option value="canada">Divorced</option> 
+      <option value="canada">Widowed</option>  
+    </select>
+
+    <label for="country">Do you have any Children?</label>
+    <select id="country" name="country">
+      <option value="australia">Yes</option>
+      <option value="canada">No</option>  
+    </select>
+
+    <label for="subject">Memories</label>
+    <textarea id="subject" name="subject" placeholder="My Memories.." style="height:150px"></textarea>
+
+    <label for="country">What is the approximate value of your assets? (including realestate,financial accounts, and personal items)</label>
+    <select id="country" name="country">
+      <option value="australia">Less than P200k</option>
+      <option value="canada">P200k-P500k</option>  
+      <option value="australia">P500-P1M</option>
+      <option value="canada">P1M-P2M</option> 
+      <option value="australia">P2M-P5M</option>
+      <option value="canada">P5M-P10M</option> 
+      <option value="canada">P10M+</option> 
+    </select>
+
+    <label for="country">To whom would you like to leave the rest of your property?</label>
+    <select id="country" name="country">
+      <option value="australia">My spouse, or else equally to my children</option>
+      <option value="canada">My children</option>  
+      <option value="canada">A specific person</option> 
+    </select>
+    <label for="lname">Name of person</label>
+    <input type="text" id="lname" name="lastname" placeholder="Davis Scot">
+    
+    <label for="country">Do you want to have three witnesses sign your will?</label>
+    <select id="country" name="country">
+      <option value="australia">Yes</option>
+      <option value="canada">No</option>  
+      
+    </select>
+
+    <label for="country">Do you want to leave any of your digital assets to a specific person?</label>
+    <select id="country" name="country">
+      <option value="australia">Yes</option>
+      <option value="canada">No</option>  
+      
+    </select>
+
+
+
+
+
+    <input type="submit" value="Save & Continue">
+  </form>
+</div>
+
+</body>
+</html>
